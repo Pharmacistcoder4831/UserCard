@@ -1,0 +1,37 @@
+.parent{
+    width: 500px;
+    background-color: beige;
+    margin: 0 auto;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #cccccc;
+    position: relative;
+    
+}
+.child{
+    background-color: #14a2b8;
+    width: 500px;
+    min-height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+}
+#user{
+    width: 12%;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border: 3px solid #cccccc;
+    
+    border-radius: 50%;
+}
+#map{
+    width: 1.5%;
+}
+#gear{
+    width: 1.5%;
+}
